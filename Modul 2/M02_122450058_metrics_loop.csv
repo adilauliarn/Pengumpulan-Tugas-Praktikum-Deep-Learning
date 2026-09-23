@@ -1,0 +1,6 @@
+seed,tahap,loss_awal,loss_akhir,prediksi,benar,error
+58,perbaikan-0 (baseline),,,,0,one of the variables needed for gradient computation has bee
+58,perbaikan-1: zero_grad,0.707461,0.707461,"[0, 0, 0, 0]",2,
+58,perbaikan-2: + urutan backward/step,0.707461,0.693224,"[0, 0, 0, 0]",2,
+58,perbaikan-3: + logit mentah,0.758698,0.693295,"[1, 1, 0, 0]",2,
+58,perbaikan-4: + aktivasi ReLU,0.75093,0.186892,"[0, 1, 1, 0]",4,
